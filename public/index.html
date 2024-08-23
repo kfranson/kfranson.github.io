@@ -1,0 +1,2683 @@
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: August 23, 2024 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="Hugo Blox Builder 0.2.0" />
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Kyle Franson" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/" />
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
+  
+
+  
+  
+    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
+  
+
+  
+  
+  
+
+  
+    
+    <link href="/css/custom.min.ac89c1c35f3d3a7999b919a157f288bc8c275544d7daae685511df387720e77c.css" rel="stylesheet" />
+  
+
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
+
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
+
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Kyle Franson" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu16798716891868408815.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu9469270762889165221.png" />
+
+  <link rel="canonical" href="http://localhost:1313/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
+  
+  <meta property="og:site_name" content="Kyle Franson" />
+  <meta property="og:url" content="http://localhost:1313/" />
+  <meta property="og:title" content="Kyle Franson" />
+  <meta property="og:description" content="The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website." /><meta property="og:image" content="http://localhost:1313/media/icon_hu12512869205313289347.png" />
+    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu12512869205313289347.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2022-10-24T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "http://localhost:1313/"
+}
+</script>
+
+
+  
+
+
+  <title>Kyle Franson</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
+  
+
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link type="text/css" rel="stylesheet" href="/dist/lib/katex/katex.min.505d5f829022bb7b4f24dfee0aa1141cd7bba67afe411d1240335f820960b5c3.css" integrity="sha256-UF1fgpAiu3tPJN/uCqEUHNe7pnr&#43;QR0SQDNfgglgtcM=" />
+  
+  
+  <script defer src="/dist/lib/katex/katex.min.dc84b296ec3e884de093158f760fd9d45b6c7abe58b5381557f4e138f46a58ae.js" integrity="sha256-3ISyluw&#43;iE3gkxWPdg/Z1Ftser5YtTgVV/ThOPRqWK4="></script>
+  
+  
+  
+  
+  <script defer src="/js/katex-renderer.6579ec9683211cfb952064aedf3a3baea5eeb17a061775b32b70917474637c80.js" integrity="sha256-ZXnsloMhHPuVIGSu3zo7rqXusXoGF3WzK3CRdHRjfIA="></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+      
+    
+  
+
+
+
+
+</head>
+
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
+      
+      
+      
+        
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Kyle Franson">
+        Kyle Franson
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
+    
+
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#section-my-resume-biography-3"
+        >Summary</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#about-me"
+        >About Me</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#research-highlights-title"
+        >Research Highlights</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#section-awards-and-observing"
+        >Awards &amp; Observing Programs</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/#papers"
+        >Publications</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/uploads/franson_CV_june26_2024.pdf"
+        >CV</a
+        >
+      </li>
+      
+      
+      
+    </ul>
+
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
+
+      
+      
+      
+
+      
+      
+
+      
+      
+
+      
+      
+    </div>
+  </nav>
+</header>
+
+
+
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+      
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+
+
+
+  
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-my-resume-biography-3" class="relative hbb-section blox-my-resume-biography-3  dark" style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg  bg-image parallax" style="background-color: black;background-image: url(&#39;http://localhost:1313/media/Rick%20Peterson%2003_hu6173450435404090161.webp&#39;);background-size: cover;background-position: center;filter: brightness(1);">
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="resume-biography-text-and-profile" class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12">
+  <div class="flex-none m-w-[130px] mx-auto md:mx-0">
+
+  
+  
+
+  <div id="profile" class="flex justify-center items-center flex-col">
+    
+
+    <div class="avatar-wrapper mt-10 ">
+      
+      <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1 " src="/author/kyle-franson/avatar_hu2642213825960989970.jpg" alt="Kyle Franson"
+           width="300" height="300">
+      
+    </div>
+    
+
+    <div class="portrait-title dark:text-white">
+
+      <div class="text-3xl font-bold mb-2 mt-6">Kyle Franson</div>
+
+      <h3 class="font-semibold mb-1">NSF Graduate Fellow</h3>
+
+      
+      <div class="mb-2">
+        <a href="https://astronomy.utexas.edu" target="_blank" rel="noopener">
+        <div>The University of Texas at Austin</div>
+        </a>
+      </div>
+      
+    </div>
+
+    <ul class="network-icon dark:text-zinc-100">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a href="mailto:kfranson@utexas.edu"  aria-label="envelope-open"
+            data-toggle="tooltip" data-placement="top" title="E-mail Me">
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.98l7.5-4.04a2.25 2.25 0 0 1 2.134 0l7.5 4.04a2.25 2.25 0 0 1 1.183 1.98z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0003-4557-414X&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0/" target="_blank" rel="noopener" aria-label="academicons/ads"
+            data-toggle="tooltip" data-placement="top" title="NASA/ADS">
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M456.047 162.822c54.548 87.296 28.001 202.283-59.295 256.831c-68.97 43.098-155.229 35.575-215.306-12.538l8.928-5.579c56.745 43.623 136.858 49.883 201.123 9.728c82.654-51.647 107.789-160.52 56.142-243.174c-35.432-56.703-91.871-86.885-154.225-83.227c-17.05.997-31.495 5.937-31.495 5.937s-.753-5.19-1.84-8.363c76.361-20.631 148.487 4.4 195.969 80.385zm-340.11 138.984l8.95-5.592c-8.277-41.436-2.42-81.416 17.988-117.9c0 0-5.027-5.476-7.974-7.03c-21.787 39.43-28.807 85.961-18.963 130.523zm233.648 11.924c-1.04-1.486-1.673-4.312-1.895-8.477c-.15-5.5-.223-10.184-.223-14.052V235.44c0-14.646-5.188-24.61-15.567-29.89c-10.38-5.277-22.253-7.917-35.618-7.917c-20.537 0-35.022 5.352-43.46 16.06c-5.302 6.842-8.288 15.576-8.96 26.208h30.67c.753-4.684 2.258-8.401 4.521-11.151c3.163-3.717 8.553-5.576 16.165-5.576c6.783 0 11.926.947 15.431 2.843c3.504 1.896 5.257 5.335 5.257 10.316c0 4.09-2.286 7.101-6.852 9.033c-2.548 1.115-6.78 2.046-12.695 2.789l-10.898 1.337c-12.358 1.561-21.72 4.165-28.088 7.808c-11.61 6.692-17.413 17.508-17.413 32.453c0 11.524 3.606 20.427 10.824 26.71c7.217 6.281 16.356 9.423 27.426 9.423c8.675 0 16.453-1.97 23.334-5.909c5.757-3.346 10.845-7.398 15.257-12.156c.222 2.752.52 5.205.892 7.362c.371 2.156 1.041 4.46 2.008 6.914h34.573v-4.684c-2.088-.967-3.649-2.192-4.69-3.68zm-33.794-38.921c-.225 10.633-3.262 17.955-9.115 21.971c-5.852 4.016-12.249 6.022-19.194 6.022c-4.38 0-8.098-1.207-11.155-3.624c-3.059-2.415-4.587-6.338-4.587-11.766c0-6.096 2.502-10.595 7.508-13.494c2.956-1.709 7.828-3.16 14.61-4.349l7.234-1.338c3.618-.67 6.461-1.393 8.534-2.175a35.062 35.062 0 0 0 6.16-3.067v11.82zm-90.177-165.094C225.614 84.468 205.148 64 179.9 64c-25.249 0-45.712 20.468-45.712 45.715c0 25.247 20.467 45.715 45.714 45.715s45.713-20.468 45.713-45.715zm91.82 16.855c-20.215-3.2-40.097-1.796-58.576 3.438c-5.049 19.49-17.281 37.154-35.703 48.663c-13.78 8.61-29.137 12.6-44.259 12.386c-8.83 14.654-15.04 31.22-17.88 49.158c-4.595 29.004.296 57.318 12.372 81.788l-22.993 14.368c-7.495-3.976-16.863-3.879-24.484 1.07l-87.305 56.696c-11.185 7.265-14.364 22.219-7.101 33.403c7.264 11.185 22.215 14.362 33.399 7.099l87.307-56.698c7.704-5.002 11.608-13.654 10.919-22.21l22.226-13.888c20.563 28.367 51.963 48.878 89.302 54.792c74.576 11.811 144.606-39.069 156.418-113.645c11.813-74.576-39.066-144.605-113.642-156.419zm75.335 152.262c-8.458 53.402-58.604 89.835-112.004 81.377c-53.4-8.458-89.835-58.606-81.377-112.006c8.458-53.4 58.606-89.835 112.006-81.377c53.4 8.458 89.832 58.606 81.374 112.006z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://scholar.google.com/citations?user=H9RKJ7oAAAAJ&amp;hl=en&amp;authuser=1/" target="_blank" rel="noopener" aria-label="academicons/google-scholar"
+            data-toggle="tooltip" data-placement="top" title="Google Scholar">
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339 0 0 0-.219 6.225c0 20.845 7.22 38.087 21.672 51.861c14.453 13.797 32.252 20.648 53.327 20.648c4.923 0 9.75-.368 14.438-1.024c-2.907 6.5-4.374 12.523-4.374 18.142c0 9.875 4.499 20.43 13.467 31.642c-39.234 2.67-68.061 9.732-86.437 21.163c-10.531 6.5-19 14.704-25.39 24.531c-6.391 9.9-9.578 20.515-9.578 31.962c0 9.648 2.062 18.336 6.219 26.062c4.156 7.726 9.578 14.07 16.312 18.984c6.718 4.968 14.469 9.101 23.219 12.469c8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052 0 0 0 180.555 448c13.469 0 26.953-1.734 40.547-5.187c13.562-3.485 26.28-8.642 38.171-15.493c11.86-6.805 21.515-16.086 28.922-27.718c7.39-11.68 11.094-24.805 11.094-39.336c0-11.016-2.25-21.039-6.75-30.14c-4.468-9.073-9.938-16.542-16.452-22.345c-6.501-5.813-13-11.155-19.516-15.968c-6.5-4.845-12-9.75-16.468-14.813c-4.485-5.046-6.735-10.054-6.735-14.984c0-4.921 1.734-9.672 5.216-14.265c3.455-4.61 7.674-9.048 12.61-13.306c4.937-4.25 9.875-8.968 14.796-14.133c4.922-5.147 9.141-11.827 12.61-20.008c3.485-8.18 5.203-17.445 5.203-27.757c0-13.453-2.547-24.46-7.547-33.314c-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958 0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038c4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553 0 0 1 6.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734c1 2.477 2.016 5.461 3.047 8.946a38.27 38.27 0 0 1 1.485 10.562c0 17.048-6.564 29.68-19.656 37.859c-13.125 8.18-28.767 12.274-46.938 12.274c-9.187 0-18.203-1.093-27.063-3.196c-8.843-2.116-17.311-5.336-25.39-9.601c-8.078-4.258-14.577-10.204-19.5-17.797c-4.938-7.64-7.407-16.415-7.407-26.25c0-10.32 2.797-19.29 8.422-26.906c5.594-7.625 12.938-13.391 22.032-17.315c9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865 0 0 1 28.438-2.555c4.47 0 7.936.25 10.405.696c.455.219 3.032 2.07 7.735 5.563c4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288c-11.86 0-22.298-4.764-31.266-14.312c-9-9.523-15.422-20.328-19.344-32.43c-3.937-12.109-5.906-23.984-5.906-35.648c0-13.694 3.596-25.352 10.781-34.976c7.187-9.65 17.5-14.485 30.938-14.485c11.875 0 22.374 5.038 31.437 15.157c9.094 10.085 15.61 21.413 19.517 33.968c3.922 12.54 5.873 24.53 5.873 35.984c0 13.446-3.702 24.61-11.076 33.454z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://orcid.org/0000-0003-4557-414X" target="_blank" rel="noopener" aria-label="academicons/orcid"
+            data-toggle="tooltip" data-placement="top" title="ORCID">
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M336.62 194.538c-7.13-3.328-13.866-5.56-20.253-6.614c-6.365-1.095-16.574-1.612-30.71-1.612h-36.704v152.747h37.634c14.673 0 26.081-1.013 34.224-3.017c8.142-2.004 14.921-4.526 20.356-7.626a69.448 69.448 0 0 0 14.942-11.388c14.488-14.714 21.742-33.273 21.742-55.717c0-22.052-7.44-40.052-22.341-53.982c-5.498-5.166-11.822-9.444-18.89-12.793zM256 8C119.022 8 8 119.042 8 256s111.022 248 248 248s248-111.042 248-248S392.978 8 256 8Zm-82.336 357.513h-29.389V160.148h29.389zM158.95 138.696c-11.14 0-20.213-9.01-20.213-20.212c0-11.118 9.052-20.191 20.213-20.191c11.18 0 20.232 9.052 20.232 20.191a20.194 20.194 0 0 1-20.232 20.212zm241.386 163.597c-5.29 12.545-12.834 23.581-22.65 33.088c-9.982 9.837-21.597 17.194-34.844 22.196c-7.75 3.017-14.839 5.063-21.307 6.117c-6.49 1.013-18.828 1.509-37.076 1.509h-64.956V160.148h69.233c27.962 0 50.034 4.154 66.32 12.545c16.265 8.37 29.181 20.728 38.792 36.972c9.61 16.265 14.425 34.018 14.425 53.196c.023 13.765-2.666 26.908-7.936 39.432z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+        
+      
+      <li>
+        <a href="/uploads/franson_CV_june26_2024.pdf" target="_blank" rel="noopener" aria-label="academicons/cv"
+            data-toggle="tooltip" data-placement="top" title="ORCID">
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M249.18 328.324c-9.788 15.384-19.179 30.434-40.222 45.055c-11.256 7.89-37.164 23.306-73.99 23.306C64.709 396.685 8 345.605 8 255.801c0-78.486 53.345-140.486 128.466-140.486c30.434 0 57.474 10.521 77.387 26.304c18.414 14.65 27.038 29.304 34.563 42.456l-52.58 26.273c-3.762-8.626-8.29-17.649-19.913-27.406c-12.784-10.155-25.54-13.152-36.46-13.152c-42.821 0-65.364 39.825-65.364 84.145c0 58.238 29.7 87.143 65.364 87.143c34.563 0 48.48-24.042 57.474-39.426l52.243 26.673zm184.194-204.75H504l-92.037 265.22h-67.597l-90.904-265.22h70.625l54.843 188.6z"/></svg>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+  </div>
+
+  <div class="flex-auto max-w-prose md:mt-12">
+    
+    <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
+      <div class="bio-text" >
+        <h1 id="hi-im-kyle-franson">Hi, I&rsquo;m Kyle Franson</h1>
+<p>I am a sixth year graduate student at The University of Texas at Austin studying giant exoplanets with <a href="https://www.as.utexas.edu/~bpbowler/" target="_blank" rel="noopener">Prof. Brendan P. Bowler</a>. In my research, I combine astrometry and high-contrast imaging to find and characterize planets and brown dwarf companions on wide orbits.</p>
+<p>I am currently on the job market, and would love to chat about opportunites. If you are interested in my work, please take a look at my <a href="uploads/franson_CV_june26_2024.pdf">CV</a> or <a href="mailto:kfranson@utexas.edu">contact me</a>!</p>
+
+      </div>
+    </div>
+    
+
+    
+
+
+
+
+  <div class="grid grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Research Interests</div>
+      <ul class="list-disc list-inside space-y-1 pl-5">
+        
+        <li>
+          Giant planet formation, evolution, and atmospheres
+        </li>
+        
+        <li>
+          High-contrast imaging
+        </li>
+        
+        <li>
+          Astrometric accelerations
+        </li>
+        
+        <li>
+          Dynamical mass measurements
+        </li>
+        
+      </ul>
+    </div>
+    
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Education</div>
+      <ul class="">
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">PhD Astronomy, expected 2025</p>
+            <p class="text-sm">The University of Texas at Austin</p>
+          </div>
+        </li>
+        
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">BS Physics, 2019</p>
+            <p class="text-sm">University of Michigan</p>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    
+
+  </div>
+
+</div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="about-me" class="relative hbb-section blox-my-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="markdown-title" class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    <span>About Me</span>
+  </div>
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+  
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><p>My primary research interest is studying the formation and atmospheres of giant planets on wide orbits through high-contrast imaging. I currently leading a multi-facility direct imaging survey of the most promising young accelerating stars between Hipparcos and Gaia. This efficient campaign has already produced exciting discoveries including AF Lep b, the lowest-mass imaged exoplanet with a direct, dynamical mass measurement. I also work more broadly on characterizing the atmospheres of planets and brown dwarfs and testing substellar evolutionary models with dynamical mass measurements. Looking forward, I am excited to combine Gaia DR4 astrometry with next-generation high-contrast imagers to dramatically expand the sample of imaged exoplanets.</p>
+<p>Outside of research, I am passionate about mentorship and outreach, serving as an informal mentor for several undergraduate students and co-organizing Starbound planetarium visits at local schools. Outside of astronomy, I enjoy playing music, cooking, and spending time with our <a href="uploads/hounds.jpg">two greyhounds</a>.</p>
+</div>
+  
+</div>
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="research-highlights-title" class="relative hbb-section blox-my-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="markdown-title" class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    <span>Research Highlights</span>
+  </div>
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+  
+  
+</div>
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="aflep-discovery-research-highlight" class="relative hbb-section blox-research-highlights  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="research-highlights" class="group px-3 flex flex-col md:flex-row justify-center bg-white gap-12">
+
+<div class="flex-none m-w-[130px] mx-auto md:mx-0">
+<a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...950L..19F/abstract">
+  <div class="flex justify-center items-center transition-all hover:scale-105 flex-col">
+    
+    <div>
+        
+      <figure><img src="/../assets/media/aflep_movie.gif" width="320">
+</figure>
+
+
+    </div>
+    
+</a>
+</div>
+</div>
+<div id="research-highlights-text" class="flex-auto max-w-prose">
+<div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    <a
+    href="https://ui.adsabs.harvard.edu/abs/2023ApJ...950L..19F/abstract">
+    <span id="indiv-research-highlight-title" class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
+    Discovery of the Giant Planet AF Lep b
+</span>
+</a>
+</div>
+  
+  <div id="research-highlights-just-text" class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><p>I am leading a multi-facility high-contrast imaging survey of the most promising young, nearby accelerating stars to efficiently discover new long-period planet and brown dwarf companions. The highlight of this program has been the discovery of AF Lep b with the <a href="https://www2.keck.hawaii.edu/inst/nirc2/" target="_blank" rel="noopener">NIRC2 camera</a> at <a href="https://www.keckobservatory.org" target="_blank" rel="noopener">Keck Observatory</a>. With a dynamical mass of $3 \, M_\mathrm{Jup}$ and semi-major axis of 9 au, <strong>it is the lowest-mass imaged exoplanet with a direct mass measurement.</strong> This is an exciting addition to the small sample of directly imaged planets! The planet shows evidence of <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...950L..19F/abstract" target="_blank" rel="noopener">spin-orbit alignment</a>, <a href="https://ui.adsabs.harvard.edu/abs/2023AJ....166..198Z/abstract" target="_blank" rel="noopener">enhanced atmospheric metallicity</a>, <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240601809B/abstract" target="_blank" rel="noopener">a circular orbit</a> similar to other imaged planets, and a <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...950L..19F/abstract" target="_blank" rel="noopener">potential</a> <a href="https://iopscience.iop.org/article/10.3847/2515-5172/ad4481/ampdf" target="_blank" rel="noopener">delay</a> in its formation revealed by its dynamical mass. These lines of evidence suggest that the planet likely formed through core accretion.</p>
+</div>
+</div>
+</div>
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-research-highlights-left" class="relative hbb-section blox-research-highlights-left  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="research-highlights" class="group px-3 flex flex-col md:flex-row justify-center bg-white gap-12">
+  <div id="research-highlights-text-left" class="flex-auto max-w-prose">
+    <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+        <a
+        href="https://ui.adsabs.harvard.edu/abs/2024arXiv240609528F/abstract">
+        <span id="indiv-research-highlight-title" class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
+        Characterizing AF Lep b at Thermal Wavelengths with JWST/NIRCam
+    </span>
+    </a>
+    </div>
+      
+      <div id="research-highlights-just-text" class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><p>I recently led a <a href="https://www.stsci.edu/jwst/science-execution/program-information?id=4558" target="_blank" rel="noopener">JWST Cycle 2 DD program</a> with <a href="https://wbalmer.github.io" target="_blank" rel="noopener">William Balmer</a> to characterize the atmosphere of AF Lep b with JWST/NIRCam 4.4 micron imaging. At a separation of 320 mas, AF Lep b is a challenging planet to recover with JWST. At these wavelengths, AF Lep b is only two resolution elements (five NIRCam pixels) away from the host star. Furthermore, over 90% of the light from the planet is blocked by the coronograph at this separation. Despite these challenges, we successfully recovered the planet at a high significance at its expected location. The resulting photometry produced clear evidence for the presence of disequilibrium chemistry and enhanced metallicity in the atmosphere of AF Lep b. This is an exciting technical achievement for NIRCam coronagraphy &mdash; <strong>AF Lep b is now the closest separation planet successfully imaged with JWST!</strong></p>
+</div>
+    </div>
+<div class="flex-none m-w-[130px] mx-auto md:mx-0">
+  <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240609528F/abstract">
+  <div class="flex justify-center items-center transition-all hover:scale-105 flex-col">
+    
+    <div>
+      <figure><img src="/../assets/media/fancy_combined_f444w.png" width="340">
+</figure>
+
+
+    </div>
+    
+
+  </a>
+</div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-research-highlights" class="relative hbb-section blox-research-highlights  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="research-highlights" class="group px-3 flex flex-col md:flex-row justify-center bg-white gap-12">
+
+<div class="flex-none m-w-[130px] mx-auto md:mx-0">
+<a href="https://ui.adsabs.harvard.edu/abs/2022AJ....163...50F/abstract">
+  <div class="flex justify-center items-center transition-all hover:scale-105 flex-col">
+    
+    <div>
+        
+      <figure><img src="/../assets/media/hd984_model_comp_new.png" width="325">
+</figure>
+
+
+    </div>
+    
+</a>
+</div>
+</div>
+<div id="research-highlights-text" class="flex-auto max-w-prose">
+<div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    <a
+    href="https://ui.adsabs.harvard.edu/abs/2022AJ....163...50F/abstract">
+    <span id="indiv-research-highlight-title" class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
+    Dynamical Mass Measurements of Brown Dwarf Companions
+</span>
+</a>
+</div>
+  
+  <div id="research-highlights-just-text" class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><p>I have carried out the measurement of the dynamical masses of two known brown dwarf companions <a href="https://ui.adsabs.harvard.edu/abs/2022AJ....163...50F/abstract" target="_blank" rel="noopener">HD 984 B</a> and <a href="https://ui.adsabs.harvard.edu/abs/2023AJ....165..246F/abstract" target="_blank" rel="noopener">PZ Tel B</a>, and one brown dwarf companion discovered through my survey <a href="https://ui.adsabs.harvard.edu/abs/2023AJ....165...39F/abstract" target="_blank" rel="noopener">HIP 21152 B</a>. Dynamical masses of substellar companions offer rare opportunities to test substellar evolutionary models and their underlying assumptions about the formation and thermal evolution of substellar objects. Hipparcos-Gaia accelerations have recently opened up these valuable direct mass measurements for a small sample of long-period planets and brown dwarf companions. Both HD 984 B and PZ Tel B&rsquo;s dynamical masses are broadly consistent with hot-start evolutionary models. HIP 21152 B has a lower dynamical mass than predicted by models. Gaia DR4 astrometry is poised to improve the precision of these and other dynamical mass measurements.</p>
+</div>
+</div>
+</div>
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-awards-and-observing" class="relative hbb-section blox-awards-and-observing  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="markdown-title" class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+  <span>Awards &amp; Observing Programs</span>
+</div>
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-12 justify-center">
+
+
+
+  
+</div>
+
+<div id="awards-and-observing-container" class="flex flex-col lg:flex-row items-top max-w-prose mx-auto gap-3">
+
+  
+  
+  
+  <div id="Select Awards &amp; Honors" class="w-full lg:w-1/2">
+    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
+      Select Awards &amp; Honors
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        UT University Graduate Continuing Fellowship (2024)
+        
+      </span>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        NSF Graduate Research Fellowship (2021-2024)
+        
+      </span>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Frank N. Edmonds, Jr. Memorial Fellowship in Astronomy (2021)
+        
+      </span>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        McDonald Observatory B.O.V. Student Second Year Defense Award (2021)
+        
+      </span>
+      
+    </div>
+    
+  </div>
+
+  
+  
+  <div id="Select PI Observing Programs" class="w-full lg:w-1/2">
+    <div class="mb-5 text-xl font-bold text-gray-900 dark:text-white">
+      Select PI Observing Programs
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        JWST (NIRCam), 6.4 hours
+        
+      </span>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Keck Observatory (NIRC2), 7 nights
+        
+      </span>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Subaru Observatory (SCExAO/CHARIS), 4 nights
+        
+      </span>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        Very Large Telescope (SPHERE), 56 hours
+        
+      </span>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        WIYN Observatory (NESSI), 7.3 nights
+        
+      </span>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+
+    <div class="skills-content">
+
+      
+
+      <span class="skills-name text-gray-700 dark:text-gray-300">
+        SOAR Telescope (HRCam), 2.5 nights
+        
+      </span>
+      
+    </div>
+    
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="papers" class="relative hbb-section blox-my-collection  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div id="markdown-title" class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+  <span>First-Author Publications</span>
+</div>
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+
+
+  
+</div>
+
+
+<div class="flex flex-col items-center">
+
+  
+  
+<div class=" container max-w-3xl w-full">
+  <div class="flex flex-col space-y-3">
+
+
+  
+    
+
+
+<div class="pub-list-item view-citation group" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  
+    
+  
+
+  <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240609528F/abstract"><span id="pub-title" class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">JWST/NIRCam 4-5 Micron Imaging of the Giant Planet AF Lep b</span>
+  <div id="pub-subtitle" class="flex space-x-3">
+    Franson, K. et al.,&nbsp;2024,&nbsp;ApJL,&nbsp;accepted
+  </div>
+  </a>
+  
+  
+    
+  
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation group" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  
+    
+  
+
+  <a href="https://ui.adsabs.harvard.edu/abs/2023ApJ...950L..19F/abstract"><span id="pub-title" class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Astrometric Accelerations as Dynamical Beacons: A Giant Planet Imaged inside the Debris Disk of the Young Star AF Lep</span>
+  <div id="pub-subtitle" class="flex space-x-3">
+    Franson, K. et al.,&nbsp;2023,&nbsp;ApJL,&nbsp;950,&nbsp;L19
+  </div>
+  </a>
+  
+  
+    
+  
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation group" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  
+    
+  
+
+  <a href="https://ui.adsabs.harvard.edu/abs/2023AJ....165..246F/abstract"><span id="pub-title" class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Dynamical Mass of the Young Brown Dwarf Companion PZ Tel B</span>
+  <div id="pub-subtitle" class="flex space-x-3">
+    Franson, K. et al.,&nbsp;2023,&nbsp;AJ,&nbsp;165,&nbsp;246
+  </div>
+  </a>
+  
+  
+    
+  
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation group" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  
+    
+  
+
+  <a href="https://ui.adsabs.harvard.edu/abs/2023AJ....165...39F/abstract"><span id="pub-title" class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Astrometric Accelerations as Dynamical Beacons: Discovery and Characterization of HIP 21152 B, the First T-dwarf Companion in the Hyades</span>
+  <div id="pub-subtitle" class="flex space-x-3">
+    Franson, K. et al.,&nbsp;2023,&nbsp;AJ,&nbsp;165,&nbsp;39
+  </div>
+  </a>
+  
+  
+    
+  
+  
+
+  
+  
+</div>
+
+  
+    
+
+
+<div class="pub-list-item view-citation group" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  
+    
+  
+
+  <a href="https://ui.adsabs.harvard.edu/abs/2022AJ....163...50F/abstract"><span id="pub-title" class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Dynamical Mass of the Young Substellar Companion HD 984 B</span>
+  <div id="pub-subtitle" class="flex space-x-3">
+    Franson, K. et al.,&nbsp;2022,&nbsp;AJ,&nbsp;163,&nbsp;50
+  </div>
+  </a>
+  
+  
+    
+  
+  
+
+  
+  
+</div>
+
+  
+
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+  
+
+  
+</section>
+
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by text-center">
+    © 2024 Kyle Franson. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by text-center">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+
+</footer>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

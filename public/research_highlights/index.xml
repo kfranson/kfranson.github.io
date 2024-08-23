@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research_highlights | Kyle Franson</title>
+    <link>http://localhost:1313/research_highlights/</link>
+      <atom:link href="http://localhost:1313/research_highlights/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research_highlights</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu12512869205313289347.png</url>
+      <title>Research_highlights</title>
+      <link>http://localhost:1313/research_highlights/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Kyle Franson
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Kyle
+last_name: Franson
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+  # icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +20,121 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: NSF Graduate Fellow
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: The University of Texas at Austin
+    url: https://astronomy.utexas.edu
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+  - icon: envelope-open
+    url: 'mailto:kfranson@utexas.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+  # - icon: brands/ads
+    # url: https://twitter.com/GetResearchDev
+  # - icon: brands/instagram
+    # url: https://www.instagram.com/
+  # - icon: brands/github
+    # url: https://github.com/gcushen
+  - icon: academicons/ads 
+    url: https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0003-4557-414X&sort=date%20desc%2C%20bibcode%20desc&p_=0/
+    label: NASA/ADS
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=H9RKJ7oAAAAJ&hl=en&authuser=1/
+    label: Google Scholar
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0003-4557-414X
+    label: ORCID
+  - icon: academicons/cv
+    url: uploads/franson_CV_june26_2024.pdf
+    label: ORCID
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Giant planet formation, evolution, and atmospheres
+  - High-contrast imaging
+  - Astrometric accelerations 
+  - Dynamical mass measurements
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - area: PhD Astronomy, expected 2025
+    institution: The University of Texas at Austin
+    # date_start: 2016-01-01
+    # date_end: 2020-12-31
+    # summary: |
+      # Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+    # button:
+      # text: 'Read Thesis'
+      # url: 'https://example.com'
+  # - area: MEng Artificial Intelligence
+    # institution: Massachusetts Institute of Technology
+    # date_start: 2016-01-01
+    # date_end: 2020-12-31
+    # summary: |
+      # GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # Courses included:
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: BS Physics, 2019
+    institution: University of Michigan
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Select Awards & Honors
     items:
-      - name: Python
+      - name: UT University Graduate Continuing Fellowship (2024)
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        # icon: code-bracket
+      - name: NSF Graduate Research Fellowship (2021-2024)
         description: ''
         percent: 40
-        icon: circle-stack
-  - name: Hobbies
+        # icon: circle-stack
+      - name: Frank N. Edmonds, Jr. Memorial Fellowship in Astronomy (2021)
+        description: ''
+        percent: 40
+        # icon: circle-stack
+      - name: McDonald Observatory B.O.V. Student Second Year Defense Award (2021)
+        description: ''
+        percent: 40
+        # icon: circle-stack
+  - name: Select PI Observing Programs
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: JWST (NIRCam), 6.4 hours
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        # icon: person-simple-walk
+      - name: Keck Observatory (NIRC2), 7 nights
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        # icon: cat
+      - name: Subaru Observatory (SCExAO/CHARIS), 4 nights
         description: ''
         percent: 80
-        icon: camera
-
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+        # icon: camera
+      - name: Very Large Telescope (SPHERE), 56 hours
+        description: ''
+        percent: 80
+        # icon: camera
+      - name: WIYN Observatory (NESSI), 7.3 nights
+        description: ''
+        percent: 80
+        # icon: camera
+      - name: SOAR Telescope (HRCam), 2.5 nights
+        description: ''
+        percent: 80
+        # icon: camera
 ---
 
-## About Me
+# Hi, I'm Kyle Franson
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a sixth year graduate student at The University of Texas at Austin studying giant exoplanets with [Prof. Brendan P. Bowler](https://www.as.utexas.edu/~bpbowler/). In my research, I combine astrometry and high-contrast imaging to find and characterize planets and brown dwarf companions on wide orbits.
+
+I am currently on the job market, and would love to chat about opportunites. If you are interested in my work, please take a look at my [CV](uploads/franson_CV_june26_2024.pdf) or [contact me](mailto:kfranson@utexas.edu)!
