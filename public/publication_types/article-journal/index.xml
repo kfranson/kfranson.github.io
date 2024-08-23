@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article-Journal | Kyle Franson</title>
-    <link>http://localhost:1313/publication_types/article-journal/</link>
-      <atom:link href="http://localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/publication_types/article-journal/</link>
+      <atom:link href="//localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu12512869205313289347.png</url>
+      <url>//localhost:1313/media/icon_hu12512869205313289347.png</url>
       <title>Article-Journal</title>
-      <link>http://localhost:1313/publication_types/article-journal/</link>
+      <link>//localhost:1313/publication_types/article-journal/</link>
     </image>
     
     <item>
       <title>JWST/NIRCam 4-5 Micron Imaging of the Giant Planet AF Lep b</title>
-      <link>http://localhost:1313/publication/aflep-jwst/</link>
+      <link>//localhost:1313/publication/aflep-jwst/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/aflep-jwst/</guid>
+      <guid>//localhost:1313/publication/aflep-jwst/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Astrometric Accelerations as Dynamical Beacons: A Giant Planet Imaged inside the Debris Disk of the Young Star AF Lep</title>
-      <link>http://localhost:1313/publication/aflep-discovery/</link>
+      <link>//localhost:1313/publication/aflep-discovery/</link>
       <pubDate>Fri, 02 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/aflep-discovery/</guid>
+      <guid>//localhost:1313/publication/aflep-discovery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamical Mass of the Young Brown Dwarf Companion PZ Tel B</title>
-      <link>http://localhost:1313/publication/pztel-dynamical-mass/</link>
+      <link>//localhost:1313/publication/pztel-dynamical-mass/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pztel-dynamical-mass/</guid>
+      <guid>//localhost:1313/publication/pztel-dynamical-mass/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Astrometric Accelerations as Dynamical Beacons: Discovery and Characterization of HIP 21152 B, the First T-dwarf Companion in the Hyades</title>
-      <link>http://localhost:1313/publication/hip21152-discovery/</link>
+      <link>//localhost:1313/publication/hip21152-discovery/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hip21152-discovery/</guid>
+      <guid>//localhost:1313/publication/hip21152-discovery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamical Mass of the Young Substellar Companion HD 984 B</title>
-      <link>http://localhost:1313/publication/hd984-dynamical-mass/</link>
+      <link>//localhost:1313/publication/hd984-dynamical-mass/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/hd984-dynamical-mass/</guid>
+      <guid>//localhost:1313/publication/hd984-dynamical-mass/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,7 @@
 # Website name
 title: Kyle Franson
 # Website URL
-baseURL: 'https://www.kylefranson.com/'
+baseURL: 'www.kylefranson.com'
 
 ############################
 ## LANGUAGE
