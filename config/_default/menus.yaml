@@ -20,5 +20,5 @@ main:
     url: /#papers
     weight: 20
   - name: CV
-    url: uploads/franson_CV_june26_2024.pdf
+    url: uploads/franson_CV.pdf
     weight: 40
