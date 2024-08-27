@@ -26,7 +26,7 @@ sections:
             brightness: 1.0
           size: cover
           position: center
-          parallax: true
+          parallax: false
   - block: my-markdown
     id: "about-me"
     content:
