@@ -135,6 +135,6 @@ skills:
 
 # Hi, I'm Kyle Franson
 
-I am a sixth year graduate student at The University of Texas at Austin studying giant exoplanets with [Prof. Brendan P. Bowler](https://www.as.utexas.edu/~bpbowler/). In my research, I combine astrometry and high-contrast imaging to find and characterize planets and brown dwarf companions on wide orbits.
+I am a sixth year graduate student at The University of Texas at Austin, where I study giant exoplanets with [Prof. Brendan P. Bowler](https://www.as.utexas.edu/~bpbowler/). My research combines astrometry and high-contrast imaging to discover and characterize exoplanets on wide orbits.
 
-I am currently on the job market, and would love to chat about opportunites. If you are interested in my work, please take a look at my [CV](uploads/franson_CV.pdf) or [contact me](mailto:kfranson@utexas.edu)!
+If you're interested in my work or potential collaborations, feel free to check out my [CV](uploads/franson_CV.pdf) or [contact me](mailto:kfranson@utexas.edu)!
