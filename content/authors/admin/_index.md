@@ -87,6 +87,10 @@ education:
 skills:
   - name: Select Awards & Honors
     items:
+      - name: David Alan Benfield Memorial Fellowship in Astronomy (2024)
+        description: ''
+        percent: 80
+        # icon: code-bracket
       - name: UT University Graduate Continuing Fellowship (2024)
         description: ''
         percent: 80
@@ -107,11 +111,14 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
+      - name: JWST (MIRI), 49.5 hours
+        description: ''
+        percent: 100
       - name: JWST (NIRCam), 6.4 hours
         description: ''
         percent: 60
         # icon: person-simple-walk
-      - name: Keck Observatory (NIRC2), 7 nights
+      - name: Keck Observatory (NIRC2), 8 nights
         description: ''
         percent: 100
         # icon: cat
@@ -135,6 +142,6 @@ skills:
 
 # Hi, I'm Kyle Franson
 
-I am a sixth year graduate student at The University of Texas at Austin, where I study giant exoplanets with [Prof. Brendan P. Bowler](https://web.physics.ucsb.edu/~bpbowler/). My research combines astrometry and high-contrast imaging to discover and characterize exoplanets on wide orbits.
+I am a final-year graduate student at The University of Texas at Austin studying giant exoplanets with [Prof. Brendan P. Bowler](https://web.physics.ucsb.edu/~bpbowler/). My research combines astrometry and high-contrast imaging to discover and characterize exoplanets on wide orbits. In September, I will start as a [NASA Sagan Fellow](https://www.stsci.edu/stsci-research/fellowships/nasa-hubble-fellowship-program/2025-nhfp-fellows#section-ee3cd148-a284-4897-b971-73f7cbd61f6d) at the University of California, Santa Cruz.
 
 If you're interested in my work or potential collaborations, feel free to check out my [CV](uploads/franson_CV.pdf) or [contact me](mailto:kfranson@utexas.edu)!
